@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		D0E008201C59F0BE007EE9FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0081F1C59F0BE007EE9FE /* main.m */; };
 		D0E008231C59F0BE007EE9FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E008221C59F0BE007EE9FE /* AppDelegate.m */; };
-		D0E008261C59F0BE007EE9FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E008251C59F0BE007EE9FE /* ViewController.m */; };
 		D0E008291C59F0BE007EE9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E008271C59F0BE007EE9FE /* Main.storyboard */; };
-		D0E0082B1C59F0BE007EE9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E0082A1C59F0BE007EE9FE /* Assets.xcassets */; };
+		D0E0082B1C59F0BE007EE9FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E0082A1C59F0BE007EE9FE /* Images.xcassets */; };
 		D0E0082E1C59F0BE007EE9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0E0082C1C59F0BE007EE9FE /* LaunchScreen.storyboard */; };
 		D0E008391C59F0BE007EE9FE /* FantasyFoliosSettingsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E008381C59F0BE007EE9FE /* FantasyFoliosSettingsDemoTests.m */; };
 		D0E008441C59F0BE007EE9FE /* FantasyFoliosSettingsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E008431C59F0BE007EE9FE /* FantasyFoliosSettingsDemoUITests.m */; };
+		D0E008531C5A0D54007EE9FE /* FFAccountHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E008521C5A0D54007EE9FE /* FFAccountHomeViewController.m */; };
+		D0E0085A1C5A25F8007EE9FE /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E008591C5A25F8007EE9FE /* CustomHeaderView.xib */; };
+		D0E0085F1C5A2A98007EE9FE /* UserDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0085D1C5A2A98007EE9FE /* UserDetailsCell.m */; };
+		D0E008601C5A2A98007EE9FE /* UserDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E0085E1C5A2A98007EE9FE /* UserDetailsCell.xib */; };
+		D0E008641C5A44D8007EE9FE /* UserEarningsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E008621C5A44D8007EE9FE /* UserEarningsCell.m */; };
+		D0E008651C5A44D8007EE9FE /* UserEarningsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0E008631C5A44D8007EE9FE /* UserEarningsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +44,8 @@
 		D0E0081F1C59F0BE007EE9FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0E008211C59F0BE007EE9FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D0E008221C59F0BE007EE9FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D0E008241C59F0BE007EE9FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D0E008251C59F0BE007EE9FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D0E008281C59F0BE007EE9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0E0082A1C59F0BE007EE9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E0082A1C59F0BE007EE9FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D0E0082D1C59F0BE007EE9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0E0082F1C59F0BE007EE9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0E008341C59F0BE007EE9FE /* FantasyFoliosSettingsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyFoliosSettingsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,15 @@
 		D0E0083F1C59F0BE007EE9FE /* FantasyFoliosSettingsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasyFoliosSettingsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E008431C59F0BE007EE9FE /* FantasyFoliosSettingsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FantasyFoliosSettingsDemoUITests.m; sourceTree = "<group>"; };
 		D0E008451C59F0BE007EE9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E008511C5A0D54007EE9FE /* FFAccountHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFAccountHomeViewController.h; path = ../FFAccountHomeViewController.h; sourceTree = "<group>"; };
+		D0E008521C5A0D54007EE9FE /* FFAccountHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFAccountHomeViewController.m; path = ../FFAccountHomeViewController.m; sourceTree = "<group>"; };
+		D0E008591C5A25F8007EE9FE /* CustomHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
+		D0E0085C1C5A2A98007EE9FE /* UserDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsCell.h; sourceTree = "<group>"; };
+		D0E0085D1C5A2A98007EE9FE /* UserDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsCell.m; sourceTree = "<group>"; };
+		D0E0085E1C5A2A98007EE9FE /* UserDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserDetailsCell.xib; sourceTree = "<group>"; };
+		D0E008611C5A44D8007EE9FE /* UserEarningsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserEarningsCell.h; path = Views/UserEarningsCell.h; sourceTree = "<group>"; };
+		D0E008621C5A44D8007EE9FE /* UserEarningsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserEarningsCell.m; path = Views/UserEarningsCell.m; sourceTree = "<group>"; };
+		D0E008631C5A44D8007EE9FE /* UserEarningsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserEarningsCell.xib; path = Views/UserEarningsCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +113,13 @@
 		D0E0081D1C59F0BE007EE9FE /* FantasyFoliosSettingsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D0E0085B1C5A2A5A007EE9FE /* Views */,
+				D0E008511C5A0D54007EE9FE /* FFAccountHomeViewController.h */,
+				D0E008521C5A0D54007EE9FE /* FFAccountHomeViewController.m */,
 				D0E008211C59F0BE007EE9FE /* AppDelegate.h */,
 				D0E008221C59F0BE007EE9FE /* AppDelegate.m */,
-				D0E008241C59F0BE007EE9FE /* ViewController.h */,
-				D0E008251C59F0BE007EE9FE /* ViewController.m */,
 				D0E008271C59F0BE007EE9FE /* Main.storyboard */,
-				D0E0082A1C59F0BE007EE9FE /* Assets.xcassets */,
+				D0E0082A1C59F0BE007EE9FE /* Images.xcassets */,
 				D0E0082C1C59F0BE007EE9FE /* LaunchScreen.storyboard */,
 				D0E0082F1C59F0BE007EE9FE /* Info.plist */,
 				D0E0081E1C59F0BE007EE9FE /* Supporting Files */,
@@ -138,6 +151,20 @@
 				D0E008451C59F0BE007EE9FE /* Info.plist */,
 			);
 			path = FantasyFoliosSettingsDemoUITests;
+			sourceTree = "<group>";
+		};
+		D0E0085B1C5A2A5A007EE9FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0E008591C5A25F8007EE9FE /* CustomHeaderView.xib */,
+				D0E0085C1C5A2A98007EE9FE /* UserDetailsCell.h */,
+				D0E0085D1C5A2A98007EE9FE /* UserDetailsCell.m */,
+				D0E0085E1C5A2A98007EE9FE /* UserDetailsCell.xib */,
+				D0E008611C5A44D8007EE9FE /* UserEarningsCell.h */,
+				D0E008621C5A44D8007EE9FE /* UserEarningsCell.m */,
+				D0E008631C5A44D8007EE9FE /* UserEarningsCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0E0085A1C5A25F8007EE9FE /* CustomHeaderView.xib in Resources */,
+				D0E008601C5A2A98007EE9FE /* UserDetailsCell.xib in Resources */,
 				D0E0082E1C59F0BE007EE9FE /* LaunchScreen.storyboard in Resources */,
-				D0E0082B1C59F0BE007EE9FE /* Assets.xcassets in Resources */,
+				D0E008651C5A44D8007EE9FE /* UserEarningsCell.xib in Resources */,
+				D0E0082B1C59F0BE007EE9FE /* Images.xcassets in Resources */,
 				D0E008291C59F0BE007EE9FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +300,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0E008261C59F0BE007EE9FE /* ViewController.m in Sources */,
 				D0E008231C59F0BE007EE9FE /* AppDelegate.m in Sources */,
+				D0E008641C5A44D8007EE9FE /* UserEarningsCell.m in Sources */,
+				D0E0085F1C5A2A98007EE9FE /* UserDetailsCell.m in Sources */,
+				D0E008531C5A0D54007EE9FE /* FFAccountHomeViewController.m in Sources */,
 				D0E008201C59F0BE007EE9FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

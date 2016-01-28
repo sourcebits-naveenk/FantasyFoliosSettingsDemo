@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FFAccountHomeViewController.h
 //  FantasyFoliosSettingsDemo
 //
 //  Created by Naveen Katari on 28/01/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FFAccountHomeViewController : UITableViewController
 
 @end
-
